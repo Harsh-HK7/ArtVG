@@ -2,6 +2,7 @@ import { useState } from "react";
 import { artworks } from "../data/artworks";
 import ArtworkCard from "../components/ArtWorkCard";
 import ArtworkModel from "../components/ArtWorkModel";
+ import React from "react";
 
 const Gallery = () => {
   const [selectedArtwork, setSelectedArtwork] = useState(null);

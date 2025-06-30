@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import ArtVG from "../assets/ArtVG.png";
+import React from "react";
 
 const Navbar = ({ toggleMute, isMuted }) => {
   const { pathname } = useLocation();

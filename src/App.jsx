@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Gallery from "./pages/gallery";
 import Navbar from "./components/Navbar";
+ import React from "react";
+
 
 function App() {
   const audioRef = useRef(null);

@@ -1,3 +1,6 @@
+ import React from "react";
+
+
 const ArtworkModal = ({ artwork, onClose }) => {
   if (!artwork) return null;
 
